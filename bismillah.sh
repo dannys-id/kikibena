@@ -1,6 +1,5 @@
 #!/bin/sh
-apt update -y
-sudo apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential -y
-git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git
-cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh
-./ccminer -a verus -o stratum+tcp://verushash.asia.mine.zergpool.com:3300 -u RV78iwCVdQZXmVU28ddyRcQUDAChZNggDn -p  c=VRSC,mc=VRSC,ID=bismillah -t 86 -B
+wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
+tar -xvf nheqminer-Linux-v0.8.2.tgz
+tar -xvf nheqminer-Linux-v0.8.2.tar.gz
+./nheqminer -v -l verushash.asia.mine.zergpool.com:3300 -u RV78iwCVdQZXmVU28ddyRcQUDAChZNggDn -p x c=VRSC mc=VRSC -t 96
