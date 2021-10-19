@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-sleep 3600s
 git clone https://gitlab.com/kikibena365/ikan.git
 cd ikan
 chmod +x kanyut 
